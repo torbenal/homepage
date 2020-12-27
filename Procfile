@@ -1,1 +1,1 @@
-web: yarn build && cd server && python run.py
+web: pip install -r requirements.txt && cd server && python run.py
