@@ -1,1 +1,1 @@
-web: pip install -r requirements.txt && cd server && python run.py
+web: cd server && python run.py
