@@ -35,7 +35,7 @@ function App() {
       text: queryStr
     }
 
-    axios.post('http://127.0.0.1:5000/query', payload).then(response => {
+    axios.post('/query', payload).then(response => {
       setQueryHistory(prevItems => [...prevItems, response.data.result_text]);
       scrollToBottom()
     }).catch(() => {
