@@ -1,0 +1,56 @@
+@media only screen and (max-width: 600px) {
+    .root-container {
+        flex-direction: column;
+        font-size: calc(10px + 4vmin);
+    }
+
+    .left-container {
+        height: auto;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .right-container {
+        width: 90%;
+        padding-top: 0;
+    }
+
+    .profile-img {
+        margin: auto 1em;
+        height: 6em;
+    }
+
+    .profile-info {
+        margin: auto 0;
+    }
+
+    .chat-history {
+        margin-top: 0;
+    }
+
+    .chat-bubble {
+        font-size: 0.6em;
+    }
+
+    .chat-form {
+        margin-bottom: 0;
+    }
+
+    .chat-suggestion {
+        font-size: 0.6em;
+    }
+
+    .chat-input {
+        font-size: 0.7em;
+        height: 0.8em;
+    }
+
+    .chat-submit {
+        padding: 0.4em 0.7em 0.3em 0.6em;
+    }
+
+    .chat-submit svg {
+        font-size: 1.1em;
+    }
+
+}

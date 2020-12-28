@@ -1,6 +1,7 @@
 import profile from './profile.jpg';
 import { queries } from './exampleQueries.js'
 import './App.css';
+import './AppMobile.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuestion } from '@fortawesome/free-solid-svg-icons';
 import React, { useState } from 'react';
